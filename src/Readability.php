@@ -1,12 +1,12 @@
 <?php
 
-namespace fivefilters\Readability;
+namespace sailenicolas\Readability;
 
-use fivefilters\Readability\Nodes\DOM\DOMDocument;
-use fivefilters\Readability\Nodes\DOM\DOMElement;
-use fivefilters\Readability\Nodes\DOM\DOMNode;
-use fivefilters\Readability\Nodes\DOM\DOMText;
-use fivefilters\Readability\Nodes\NodeUtility;
+use sailenicolas\Readability\Nodes\DOM\DOMDocument;
+use sailenicolas\Readability\Nodes\DOM\DOMElement;
+use sailenicolas\Readability\Nodes\DOM\DOMNode;
+use sailenicolas\Readability\Nodes\DOM\DOMText;
+use sailenicolas\Readability\Nodes\NodeUtility;
 use Psr\Log\LoggerInterface;
 use \Masterminds\HTML5;
 use League\Uri\Http;

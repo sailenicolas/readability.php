@@ -1,8 +1,8 @@
 <?php
 
-namespace fivefilters\Readability\Nodes\DOM;
+namespace sailenicolas\Readability\Nodes\DOM;
 
-use fivefilters\Readability\Nodes\NodeTrait;
+use sailenicolas\Readability\Nodes\NodeTrait;
 
 class DOMElement extends \DOMElement
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace fivefilters\Readability\Nodes\DOM;
+namespace sailenicolas\Readability\Nodes\DOM;
 
 /**
  * Class DOMNodeList.
