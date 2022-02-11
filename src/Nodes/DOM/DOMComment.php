@@ -1,8 +1,8 @@
 <?php
 
-namespace sailenicolas\Readability\Nodes\DOM;
+namespace fivefilters\Readability\Nodes\DOM;
 
-use sailenicolas\Readability\Nodes\NodeTrait;
+use fivefilters\Readability\Nodes\NodeTrait;
 
 class DOMComment extends \DOMComment
 {

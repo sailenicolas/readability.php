@@ -1,6 +1,6 @@
 <?php
 
-namespace sailenicolas\Readability;
+namespace fivefilters\Readability;
 
 use Psr\Log\LoggerAwareTrait;
 use Psr\Log\LoggerInterface;
