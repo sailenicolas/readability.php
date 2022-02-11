@@ -188,7 +188,7 @@ class Readability
         $this->getMainImage();
 
         while (true) {
-            $this->logger->debug('Starting parse loop');
+            $this->logger->debug('Starting parse loop here');
             $root = $root->firstChild;
 
             $elementsToScore = $this->getNodes($root);
