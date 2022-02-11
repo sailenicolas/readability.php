@@ -167,7 +167,7 @@ trait NodeTrait
      *
      * @return string
      */
-    public function getAttribute($attributeName)
+    public function getAttribute($attributeName): string
     {
         if (!is_null($this->attributes)) {
             return parent::getAttribute($attributeName);
@@ -185,7 +185,7 @@ trait NodeTrait
      *
      * @see getAttribute
      */
-    public function hasAttribute($attributeName)
+    public function hasAttribute($attributeName): string
     {
         if (!is_null($this->attributes)) {
             return parent::hasAttribute($attributeName);
