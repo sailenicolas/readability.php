@@ -2,7 +2,7 @@
 
 namespace fivefilters\Readability\Nodes\DOM;
 
-use fivefilters\Readability\Nodes\NodeTrait;
+use sailenicolas\Readability\Nodes\NodeTrait;
 
 class DOMCdataSection extends \DOMCdataSection
 {
